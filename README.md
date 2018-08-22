@@ -5,9 +5,12 @@
 
 ## Motivation
 
-Whilst exploring the Consent Management Platforms (CMPs) which are available both open and closed source, it was a striking fact that the goal was to drive the highest possible consent / opt-in rates. There was no thought given to the soft squidgy animals at the other end of the screen. Therefore this projects main aims are:
-* Educate people on data gathering on the web.
+Whilst exploring the Consent Management Platforms (CMPs) which are available both open and closed source, it was a striking fact that the goal was to drive the highest possible consent / opt-in rates. An [article published by Digiday](https://digiday.com/media/tech-publisher-future-getting-95-percent-audience-consent-ad-tracking/), explained how the publishing group [Future](https://www.futureplc.com/), achieved a 95% opt-in rate through the optimisation and usage of [dark patterns](https://darkpatterns.org/) in their consent modal. 
+
+There was no thought given to the soft squidgy animals at the other end of the screen. Therefore this projects main aims are:
+* Educate people on data harvesting on the web.
 * Provide fine grained controls, over that data.
+* Create a dialog between the user and the website owner.
 * Achieve this through a pleasent user experience.
 
 To help drive the main goals, we have decided to target the developer community to drive adoption of such tooling and use the community to help understand how best to address the web privacy issue.
