@@ -22,8 +22,12 @@ Below are a list of some open source variants of the CMP, which exist today - mo
 
 ## Technical / Development
 
-Lorem ipsum...
+Coming soon...
 
 ## Contributions
 
-## Licence
+You are welcome to fork the project and submit pull requests to the master branch. More detailed instructions for developers alongside first issues are coming soon!
+
+## License
+
+The ConsentStack CMP is freely distributable under the terms of the [MIT License](https://github.com/ConsentStack/cmp/blob/master/LICENSE).
