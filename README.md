@@ -24,7 +24,7 @@ Below are a list of some open source variants of the CMP, which exist today - mo
 
 To get a feel for the application, you can find the usage documentation located [here](https://consentstack.org/docs).
 
-## Technical / Development
+## Technical Documentation
 
 Coming soon...
 
