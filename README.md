@@ -1,7 +1,7 @@
 # ConsentStack CMP
 **Open source, developer focused & human centric consent management platform.**
 
-**NOTE:** This repository is a public version of the product available [here](https://consentstack.org/), and previously developed by [OrbisLabs](https://github.com/orbislabs). The code is being prepared for its debut into the open source world, however we welcome any votes of interest, please submit an issue [here](https://github.com/ConsentStack/cmp/issues/1).
+**NOTE:** This repository is a public version of the product available [here](https://consentstack.org/), and previously developed by [OrbisLabs](https://github.com/orbislabs). The code is being prepared for its debut into the open source world, however we welcome any votes of interest, please submit a comment or even just a :+1: on this [issue](https://github.com/ConsentStack/cmp/issues/1).
 
 ## Motivation
 
