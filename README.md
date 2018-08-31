@@ -1,3 +1,7 @@
+<p align="center">
+  <img src ="https://consentstack.org/docs/logo.png" alt="Consent Stack - Consent Management GDPR"/>
+</p>
+
 # ConsentStack CMP
 **Open source, developer focused & human centric consent management platform.**
 
@@ -23,6 +27,34 @@ Below are a list of some open source variants of the CMP, which exist today - mo
 * [Axel Springer - OIL.js](https://github.com/as-ideas/oil)
 * [Segment.io - Consent Manager](https://github.com/segmentio/consent-manager)
 
+## Installation Instructions
+
+Clone and install the application:
+```bash
+$ git clone https://github.com/ConsentStack/cmp.git
+$ cd cmp
+$ npm install
+```
+
+Build the application files:
+```bash
+$ npm run build:prod
+```
+
+Start the server, we recommend using a process manager such as [PM2](http://pm2.keymetrics.io/):
+```bash
+$ pm2 start server/server.js
+```
+
+Including the script tag on your website:
+```javascript
+<html>
+  <head>
+    <script src="//[YOUR_WEB_SERVER]/cmp" id="pluto-cmp-js-src" client-id="[CLIENT_ID]" async></script>
+  </head>
+</html>
+```
+
 ## Usage Documentation
 
 To get a feel for the application, you can find the usage documentation located [here](https://consentstack.org/docs).
@@ -30,6 +62,15 @@ To get a feel for the application, you can find the usage documentation located 
 ## Technical Documentation
 
 Coming soon...
+
+## Roadmap
+
+The below outlines from a very high level the aspirations of this project to make it a solution which will fit any website. Initially this project began as a closed source and cloud hosted solution, I am hoping to lean on the community for direction in design of a generalised, composable consent stack for developers.
+
+### Separate Logic from UI
+### Pluggable consent frameworks
+### UI Themes Library
+### Decentralised Consent Storage
 
 ## Contributions
 
