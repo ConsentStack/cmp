@@ -27,6 +27,10 @@ Below are a list of some open source variants of the CMP, which exist today - mo
 * [Axel Springer - OIL.js](https://github.com/as-ideas/oil)
 * [Segment.io - Consent Manager](https://github.com/segmentio/consent-manager)
 
+## CMP Demo
+
+Can be found [here](https://consentstack.org/#/demo).
+
 ## Installation Instructions
 
 Clone and install the application:
