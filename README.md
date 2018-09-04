@@ -68,9 +68,54 @@ Coming soon...
 The below outlines from a very high level the aspirations of this project to make it a solution which will fit any website. Initially this project began as a closed source and cloud hosted solution, I am hoping to lean on the community for direction in design of a generalised, composable consent stack for developers.
 
 ### Separate Logic from UI
-### Pluggable consent frameworks
+
+A primary task for this project would be to separate the various logic for consent framework(s) and the UI element, to allow for developers to build their own UIs using any library or framework, or directly apply into their own website privacy pages.
+
+The current UI is implemented using code split via `import()` and [Vue.js](https://vuejs.org/), meaning the logic can run and not request the heavy UI files.
+
+A simple illustration:
+```javascript
+import Cmp from 'consentstack-cmp';
+
+const cmp = new Cmp(config);
+
+cmp.setConsent(consentObject);
+```
+
 ### UI Themes Library
+
+To save everyone writing CSS, it would be great to allow the publishing of UI themes into a central place for others to consume.
+
+```bash
+# install the core library
+$ npm install consentstack-cmp
+# install the open sourced visual theme
+$ npm install consentstack-cmp-theme-dark
+```
+
+### Pluggable Consent Frameworks
+
+The IAB have created the [Transparency and Consent Framework](http://advertisingconsent.eu/) - which has many flaws:
+- Heavily reliant on cookies
+- Uses wording hard to decipher for non-techies
+- Aims to gather high rates of consent
+- etc
+
+Google is also working on a framework and exposes some APIs into this as are other projects:
+- [Open GDPR](https://www.opengdpr.org/)
+- [Google Consent](https://support.google.com/admanager/answer/9031024?hl=en&ref_topic=9007190)
+
+This roadmap item is focused on allow the community to plugin new frameworks to allow full interoperability. 
+
 ### Decentralised Consent Storage
+
+A singe source of truth for consent receipts could convert this project from an application into a public utility.
+
+More to come...
+
+### Broswer Add-On
+
+Allowing users to set settings to stop annoying popups.
 
 ## Contributions
 
