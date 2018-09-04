@@ -113,7 +113,7 @@ A singe source of truth for consent receipts could convert this project from an 
 
 More to come...
 
-### Broswer Add-On
+### Browser Add-On
 
 Allowing users to set settings to stop annoying popups.
 
