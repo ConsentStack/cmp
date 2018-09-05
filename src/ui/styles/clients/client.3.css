@@ -1,0 +1,41 @@
+div.uk-modal-body {
+  background-color: #3D3C3A;
+}
+
+h1.client-styles {
+  font-family: Replica-Regular, sans-serif;
+  background-color: #3D3C3A;
+  color: #FFF;
+}
+
+h4.client-styles {
+  font-family: Replica-Regular, sans-serif;
+  font-weight: 600;
+  background-color: #3D3C3A;
+  color: #FFF;
+}
+
+p.client-styles {
+  font-family: Replica-Regular, sans-serif;
+  background-color: #3D3C3A;
+  color: #FFF;
+}
+
+button.client-styles.uk-button-default {
+  color: #FFF !important;
+  background-color: #3D3C3A !important;
+}
+
+button.client-styles.uk-button-secondary {
+  color: black !important;
+  background-color: #FFF !important;
+}
+
+span.client-styles {
+  color: #FFF !important;
+}
+
+table.client-styles td {
+  color: #FFF !important;
+}
+
