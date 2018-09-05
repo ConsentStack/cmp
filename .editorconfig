@@ -1,0 +1,9 @@
+# EditorConfig Docs url: https://EditorConfig.org
+# No plugin needed when using VSCode
+root = true
+
+# Applies to all files
+[*]
+insert_final_newline = true
+indent_style = space
+indent_size = 2

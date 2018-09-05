@@ -1,0 +1,9 @@
+# folders
+/node_modules/
+/node_modules
+dist/
+.idea
+
+# files
+.DS_store
+

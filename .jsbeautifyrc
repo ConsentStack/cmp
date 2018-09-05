@@ -1,0 +1,8 @@
+{
+    "editor": {
+        "formatOnSave": true
+    },
+    "tab_size":2,
+    "indent_size": 2,
+    "indent_char": " "
+}
