@@ -19,6 +19,16 @@ There was no thought given to the soft squidgy animals at the other end of the s
 
 To help drive the main goals, we have decided to target the developer community to drive adoption of such tooling and use the community to help understand how best to address the web privacy issue.
 
+## Privacy Nutrition Labels 
+
+Attribution: [A “Nutrition Label” for Privacy](https://cups.cs.cmu.edu/soups/2009/proceedings/a4-kelley.pdf) by [Lorrie Cranor](http://lorrie.cranor.org/)
+
+The final goal is to converge on a industry wide nutrition label for privacy.
+
+<p align="center">
+  <img src="https://preview.ibb.co/bCtf2z/nutrition.png" alt="nutrition" border="0"></a>
+</p>
+
 ## Alternative Options (Open Source)
 
 Below are a list of some open source variants of the CMP, which exist today - most likely this list will be expanded with further information and moved into its own repository.
