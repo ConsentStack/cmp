@@ -36,6 +36,7 @@ Below are a list of some open source variants of the CMP, which exist today - mo
 * [IAB Tech Lab Reference Implementation](https://github.com/appnexus/cmp)
 * [Axel Springer - OIL.js](https://github.com/as-ideas/oil)
 * [Segment.io - Consent Manager](https://github.com/segmentio/consent-manager)
+* [Adledger Consortium - ClearGDPR](https://www.cleargdpr.com/)
 
 ## CMP Demo
 
